@@ -9,7 +9,7 @@
   --ifm-code-font-size: 95%;
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-color-primary: #39cac4;
   --ifm-color-primary-dark: #31b8b2;
   --ifm-color-primary-darker: #2eaea8;
@@ -26,6 +26,6 @@ html[data-theme='dark'] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

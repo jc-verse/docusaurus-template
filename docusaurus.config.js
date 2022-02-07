@@ -1,34 +1,34 @@
 // @ts-check
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // TODO
-  title: '',
-  url: 'https://jc-verse.github.io',
+  title: "",
+  url: "https://jc-verse.github.io",
   // TODO
-  baseUrl: '/foo/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  baseUrl: "/foo/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
   // TODO make a project logo and use it as favicon
-  favicon: 'img/favicon.ico',
+  favicon: "img/favicon.ico",
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           // TODO: doc configurations? Do you need a React landing page?
-          routeBasePath: '/',
+          routeBasePath: "/",
           // The sidebars file is not included. You can add it yourself, but the
           // default is usually good enough.
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -39,32 +39,32 @@ const config = {
     ({
       navbar: {
         // TODO
-        title: '',
+        title: "",
         logo: {
-          alt: 'Logo',
-          src: 'img/logo.svg',
+          alt: "Logo",
+          src: "img/logo.svg",
         },
         items: [
           // TODO
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Intro',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Intro",
           },
           {
-            href: 'https://github.com/jc-verse/docusaurus-template',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/jc-verse/docusaurus-template",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         logo: {
-          alt: 'JC-verse logo',
-          src: 'img/logo.svg',
-          href: 'https://github.com/jc-verse',
+          alt: "JC-verse logo",
+          src: "img/logo.svg",
+          href: "https://github.com/jc-verse",
         },
         copyright: `Copyright © ${new Date().getFullYear()} JC-verse. Built with Docusaurus.`,
       },
