@@ -6,10 +6,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // TODO
-  title: "",
+  title: "Template",
   url: "https://jc-verse.github.io",
   // TODO
-  baseUrl: "/foo/",
+  baseUrl: "/docusaurus-template/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   // TODO make a project logo and use it as favicon
@@ -39,7 +39,7 @@ const config = {
     ({
       navbar: {
         // TODO
-        title: "",
+        title: "Template",
         logo: {
           alt: "Logo",
           src: "img/logo.svg",
