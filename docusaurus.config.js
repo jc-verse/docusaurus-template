@@ -42,7 +42,8 @@ const config = {
         title: "Template",
         logo: {
           alt: "Logo",
-          src: "img/logo.svg",
+          src: "img/logo-light.svg",
+          srcDark: "img/logo.svg",
         },
         items: [
           // TODO
